@@ -10,7 +10,7 @@ AC_PROG_CC
 AC_LANG(C)
 
 AC_TYPE_SIZE_T
-AC_FUNC_MALLOC
+AC_CHECK_FUNCS([malloc])
 
 CFLAGS="-Wall -fPIC -fno-strict-aliasing $CFLAGS"
 
